@@ -1,0 +1,31 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    text-align:center;
+    background-color:blueviolet
+}
+section{
+    text-align:center;
+    padding:50px;
+}
+.game--container{
+   display:grid;
+   grid-template-columns:repeat(3,auto);
+   width:300px;
+   margin:50px auto;
+}
+.cell{
+   font-family:"permanent Marker" , cursive;
+   width:100px;
+   height:100px;
+   border:2px solid black;
+   cursor:pointer;
+   font-size:60px;
+
+}
+.game--container{
+    background-color:blue
+}
+.cell{
+    background-color:fuchsia
+}
